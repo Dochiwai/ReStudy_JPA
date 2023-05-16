@@ -19,7 +19,7 @@ public class Order {
 
     @OneToMany(mappedBy = "order")
     private List<OrderItem> orderItems = new ArrayList<>();
-
+//이러는거임?
     private LocalDateTime orderDate;
 
     @Enumerated(EnumType.STRING)
